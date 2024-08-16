@@ -6,7 +6,7 @@ from diagrams.aws.storage import S3
 from diagrams.aws.network import ELB
 from diagrams.onprem.network import Internet  # Para representar a API de pagamento externa
 
-with Diagram("Café App Architecture", show=False):
+with Diagram("Café App Architecture - Add Merge", show=False):
     # Nível 1: Infraestrutura
     k8s_source = EKS("k8s cluster")
 
